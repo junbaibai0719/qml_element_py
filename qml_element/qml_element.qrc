@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>icons/shadow.png</file>
+        <file>icons/close-bold.svg</file>
+        <file>icons/window-minimize.svg</file>
+        <file>icons/window-maximize.svg</file>
+        <file>componentLib/ShadowRectangle.qml</file>
+        <file>componentLib/DatePicker.qml</file>
+        <file>componentLib/ElMonthGrid.qml</file>
+        <file>componentLib/Link.qml</file>
+        <file>componentLib/Buttons/FlatButton.qml</file>
+        <file>componentLib/qmldir</file>
+    </qresource>
+</RCC>
