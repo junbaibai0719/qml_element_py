@@ -10,9 +10,14 @@ setup(
     author_email="1355767057@qq.com",
     description="仿element ui样式风格的qml组件库",
     packages=find_packages(),
-    package_data={
-        "componentLib": [i.as_posix() for i in filter(
-            lambda f:f.is_file(), pathlib.Path("qml_element/componentLib").rglob("*"))]
-    },
-    include_package_data=True
+    # package_data={
+    #     "componentLib": [i.as_posix() for i in filter(
+    #         lambda f:f.is_file(), pathlib.Path("qml_element/componentLib").rglob("*"))]
+    # },
+    # include_package_data=True
+
+    data_files=[
+        ("Lib/site-packages/qml_element/componentLib",  [i.as_posix() for i in filter(
+            lambda f:f.is_file(), pathlib.Path("qml_element/componentLib").rglob("*"))])
+    ]
 )
