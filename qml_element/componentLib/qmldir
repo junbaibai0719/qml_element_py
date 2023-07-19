@@ -1,4 +1,6 @@
 module componentLib
+linktarget componentLibplugin
+classname componentLibPlugin
 typeinfo componentLib.qmltypes
 prefer :/componentLib/
 ShadowRectangle 1.0 ShadowRectangle.qml
